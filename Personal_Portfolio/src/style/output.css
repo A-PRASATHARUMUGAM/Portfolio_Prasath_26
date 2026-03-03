@@ -15,6 +15,7 @@
     --spacing: 0.25rem;
     --text-3xl: 1.875rem;
     --text-3xl--line-height: calc(2.25 / 1.875);
+    --font-weight-semibold: 600;
     --font-weight-bold: 700;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
@@ -319,6 +320,33 @@
   .p-4 {
     padding: calc(var(--spacing) * 4);
   }
+  .font-\[font-variant-small-caps\] {
+    font-family: font-variant-small-caps;
+  }
+  .font-\[font-variantsmall-caps\] {
+    font-family: font-variantsmall-caps;
+  }
+  .font-\[font-varismall-caps\] {
+    font-family: font-varismall-caps;
+  }
+  .font-\[font-vsmall-caps\] {
+    font-family: font-vsmall-caps;
+  }
+  .font-\[fontsmall-caps\] {
+    font-family: fontsmall-caps;
+  }
+  .font-\[sma\] {
+    font-family: sma;
+  }
+  .font-\[small-c\] {
+    font-family: small-c;
+  }
+  .font-\[small-caps\] {
+    font-family: small-caps;
+  }
+  .font-\[small\] {
+    font-family: small;
+  }
   .text-3xl {
     font-size: var(--text-3xl);
     line-height: var(--tw-leading, var(--text-3xl--line-height));
@@ -327,8 +355,19 @@
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
   }
+  .font-semibold {
+    --tw-font-weight: var(--font-weight-semibold);
+    font-weight: var(--font-weight-semibold);
+  }
   .text-white {
     color: var(--color-white);
+  }
+  .ordinal {
+    --tw-ordinal: ordinal;
+    font-variant-numeric: var(--tw-ordinal,) var(--tw-slashed-zero,) var(--tw-numeric-figure,) var(--tw-numeric-spacing,) var(--tw-numeric-fraction,);
+  }
+  .normal-nums {
+    font-variant-numeric: normal;
   }
   .underline {
     text-decoration-line: underline;
@@ -350,6 +389,26 @@
   syntax: "*";
   inherits: false;
 }
+@property --tw-ordinal {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-slashed-zero {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-numeric-figure {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-numeric-spacing {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-numeric-fraction {
+  syntax: "*";
+  inherits: false;
+}
 @property --tw-outline-style {
   syntax: "*";
   inherits: false;
@@ -360,6 +419,11 @@
     *, ::before, ::after, ::backdrop {
       --tw-border-style: solid;
       --tw-font-weight: initial;
+      --tw-ordinal: initial;
+      --tw-slashed-zero: initial;
+      --tw-numeric-figure: initial;
+      --tw-numeric-spacing: initial;
+      --tw-numeric-fraction: initial;
       --tw-outline-style: solid;
     }
   }
