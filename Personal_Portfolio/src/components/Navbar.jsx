@@ -13,6 +13,12 @@ const Navbar= ()=>{
                         <a href="" className="mx-4">Service</a> 
                         <a href="" className="mx-4">Projects</a> 
                         <a href="" className="mx-4">Contact</a>
+
+a href="" className="mx-4">Home</a>
+                        <a href="" className="mx-4">About</a> 
+                        <a href="" className="mx-4">Service</a> 
+                        <a href="" className="mx-4">Projects</a> 
+                        <a href="" className="mx-4">Contact</a>
                 </div>
             </div>
         </>
