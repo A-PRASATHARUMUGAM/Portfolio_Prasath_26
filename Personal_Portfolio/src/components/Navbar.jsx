@@ -12,7 +12,6 @@ const Navbar= ()=>{
                         border border-white/20 
                         rounded-full shadow-lg  font-line  cursor-pointer text-white ">
 
- 
                         <a href="#" className="mx-4  hover:border hover:shadow-lg  hover:bg-white/10  hover:backdrop-blur-xl  rounded-full hover:border-white/40   hover:px-4 hover:py-1 flex justify-center items-center hover:font-semibold duration-300 ease">
                               Home 
                         </a>
