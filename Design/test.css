@@ -1,0 +1,9 @@
+*{
+    box-sizing: border-box;
+    text-decoration:none;
+}
+
+body{
+    background-color:#24252a;
+    color:white;
+}
