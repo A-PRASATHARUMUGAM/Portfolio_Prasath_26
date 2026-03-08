@@ -7,14 +7,14 @@ function App() {
   
 
   return (
-    <div className='bg-[#24252a] h-[100vh] cursor-none'>
-             <ProCursor /> 
+    <div className=' bg-linear-to-bl h-screen font-line from-black to-blue-900  cursor-none'>
+             <ProCursor />  
              <Navbar/>
              <Home />
 
     </div> 
   
-
+ 
 
       
   )

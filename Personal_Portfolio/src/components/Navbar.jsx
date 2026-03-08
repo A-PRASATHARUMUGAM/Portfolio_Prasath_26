@@ -5,9 +5,9 @@ const Navbar= ()=>{
 
     return (
         <>
-            <div className="nav-container  border-white flex justify-center  items-center p-4  ">
+            <div className="nav-container  border-white flex justify-center  items-center p-4 fixed left-0 right-0 ">
                       
-                     <div className="navbar flex items-center px-6 py-3 
+                     <div className="navbar flex items-center justify-center px-6 py-3 
                          bg-white/10 backdrop-blur-xl 
                         border border-white/20  
                         rounded-full shadow-lg  font-line  text-white ">
