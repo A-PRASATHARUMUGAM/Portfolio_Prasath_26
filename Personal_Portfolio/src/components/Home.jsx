@@ -26,22 +26,20 @@ return (
 
   <div className="relative min-h-screen flex items-center overflow-hidden">
 
-<div className="fixed inset-0 -z-10 overflow-hidden bg-slate-950">
+            <div className="fixed inset-0 -z-10 overflow-hidden bg-slate-950">
+            {/* Glassmorphism Overlay */}
+            <div className="absolute inset-0 backdrop-blur-[100px] z-10"></div>
 
+            {/* The "Primary" Glow */}
+            <div className="absolute w-[600px] h-[600px] bg-indigo-500/40 rounded-full mix-blend-screen animate-blob top-[-10%] left-[-10%] filter blur-[120px]"></div>
 
-  {/* Glassmorphism Overlay */}
-  <div className="absolute inset-0 backdrop-blur-[100px] z-10"></div>
+            {/* The "Accent" Glow */}
+            <div className="absolute w-[500px] h-[500px] bg-fuchsia-500/30 rounded-full mix-blend-multiply animate-blob animation-delay-2000 bottom-[-10%] right-[-5%] filter blur-[120px]"></div>
 
-  {/* The "Primary" Glow */}
-  <div className="absolute w-[600px] h-[600px] bg-indigo-500/40 rounded-full mix-blend-screen animate-blob top-[-10%] left-[-10%] filter blur-[120px]"></div>
-
-  {/* The "Accent" Glow */}
-  <div className="absolute w-[500px] h-[500px] bg-fuchsia-500/30 rounded-full mix-blend-multiply animate-blob animation-delay-2000 bottom-[-10%] right-[-5%] filter blur-[120px]"></div>
-
-  {/* The "Deep" Glow */}
-  <div className="absolute w-[450px] h-[450px] bg-blue-600/30 rounded-full mix-blend-screen animate-blob animation-delay-4000 top-[30%] left-[30%] filter blur-[120px]"></div>
-</div>
-
+            {/* The "Deep" Glow */}
+            <div className="absolute w-[450px] h-[450px] bg-blue-600/30 rounded-full mix-blend-screen animate-blob animation-delay-4000 top-[30%] left-[30%] filter blur-[120px]"></div>
+            </div>
+ 
       {/* Main Content */}
 
          <div className="mt-20 h-140 flex justify-start items-start p-10  w-full">

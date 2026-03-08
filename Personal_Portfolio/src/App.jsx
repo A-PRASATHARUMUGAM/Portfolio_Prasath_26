@@ -4,10 +4,10 @@ import ProCursor from './components/Cursor'
 import Home from './components/Home'
 
 function App() {
-  
+    // color from-black to-blue-900 
 
   return (
-    <div className=' bg-linear-to-bl h-screen font-line from-black to-blue-900  cursor-none'>
+    <div className='  h-screen font-line cursor-none'>
              <ProCursor />  
              <Navbar/>
              <Home />
