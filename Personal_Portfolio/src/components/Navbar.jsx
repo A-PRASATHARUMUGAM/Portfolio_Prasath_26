@@ -9,7 +9,7 @@ const Navbar= ()=>{
                       
                      <div className="navbar flex items-center justify-center px-6 py-3 
                          bg-white/10 backdrop-blur-xl 
-                        border border-white/20  
+                        border border-white/20   
                         rounded-full shadow-lg  font-line  text-white ">
 
                         <a href="#" className="mx-4  hover:border hover:shadow-lg  hover:bg-white/10  hover:backdrop-blur-xl  rounded-full hover:border-white/40   hover:px-4 hover:py-1 flex justify-center items-center hover:font-semibold duration-300 ease">
